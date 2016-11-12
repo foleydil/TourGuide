@@ -19,11 +19,7 @@ public class PagerAdapter extends FragmentPagerAdapter {
         this.context = context;
     }
 
-    @Override
-    public int getCount() {
-        return num_items;
-    }
-
+    /** List of fragments for ViewPager */
     @Override
     public Fragment getItem(int position) {
         switch (position){
@@ -40,6 +36,13 @@ public class PagerAdapter extends FragmentPagerAdapter {
         }
     }
 
+    /** Helper function to return number of views for ViewPager */
+    @Override
+    public int getCount() {
+        return num_items;
+    }
+
+    /** List of titles for each Fragment, to be displayed in TabLayout */
     @Override
     public CharSequence getPageTitle(int position) {
         switch (position){
