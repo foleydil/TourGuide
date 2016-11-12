@@ -1,10 +1,48 @@
 <resources>
+<!--Title Strings-->
     <string name="app_name">Tour Guide</string>
     <string name="eats_title">Eats</string>
     <string name="fun_title">Fun</string>
     <string name="shows_title">Shows</string>
     <string name="parks_title">Parks</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--Item name Strings-->
+    <string name="eats_name_punchbowl">Punch Bowl Social</string>
+    <string name="eats_name_townhouse">Townhouse</string>
+    <string name="eats_name_greendot">Green Dot Stables</string>
+    <string name="eats_name_nathans">Nathan's Deli</string>
+    <string name="eats_name_republic">Republic</string>
+    <string name="eats_name_wright">Wright &amp; Co.</string>
+
+    <string name="parks_name_campus">Campus Martius</string>
+    <string name="parks_name_grand">Grand Circuis Park</string>
+    <string name="parks_name_riverwalk">Detroit Riverwalk</string>
+    <string name="parks_name_belle">Belle Isle Park</string>
+    <string name="parks_name_hart">Hart Plaza</string>
+    <string name="parks_name_milliken">William G. Milliken State Park</string>
+    <string name="parks_name_spirit">The Spirit of Detroit</string>
+
+    <string name="fun_name_mgm">MGM Grand Detroit Casino</string>
+    <string name="fun_name_greektown">Greektown Casino-Hotel</string>
+    <string name="fun_name_motorcity">MotorCity Casino Hotel</string>
+    <string name="fun_name_monroe">Greektown (Monroe Street)</string>
+    <string name="fun_name_fowling">The Fowling Warehouse</string>
+    <string name="fun_name_princess">Detroit Princess</string>
+    <string name="fun_name_dia">Detroit Institute of Arts</string>
+    <string name="fun_name_historical">Detroit Historical Museum</string>
+
+    <string name="shows_name_comerica">Comerica Park</string>
+    <string name="shows_name_ford">Ford Field</string>
+    <string name="shows_name_little">Little Caesar's Arena</string>
+    <string name="shows_name_fillmore">The Fillmore Detroit</string>
+    <string name="shows_name_fox">The Fox Theatre</string>
+    <string name="shows_name_fisher">The Fisher Theatre</string>
+    <string name="shows_name_opera">Detroit Opera House</string>
+    <string name="shows_name_standrews">St Andrew's Hall</string>
+    <string name="shows_name_masonic">The Masonic Temple</string>
+
+    <!--Item description strings-->
+
+    <!--Item website strings-->
+
 </resources>
