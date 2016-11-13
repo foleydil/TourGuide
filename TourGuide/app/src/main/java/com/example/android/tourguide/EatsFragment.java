@@ -30,7 +30,16 @@ public class EatsFragment extends Fragment {
         final ArrayList<ListItem> listItems = new ArrayList<>();
         listItems.add(new ListItem(getString(R.string.eats_name_greendot), "Description",
                 "Website", R.drawable.greendot));
-
+        listItems.add(new ListItem(getString(R.string.eats_name_nathans), "Description",
+                "Website", R.drawable.greendot));
+        listItems.add(new ListItem(getString(R.string.eats_name_punchbowl), "Description",
+                "Website", R.drawable.greendot));
+        listItems.add(new ListItem(getString(R.string.eats_name_republic), "Description",
+                "Website", R.drawable.greendot));
+        listItems.add(new ListItem(getString(R.string.eats_name_townhouse), "Description",
+                "Website", R.drawable.greendot));
+        listItems.add(new ListItem(getString(R.string.eats_name_wright), "Description",
+                "Website", R.drawable.greendot));
 
 //        Hook up adapter
         ListItemAdapter adapter = new ListItemAdapter(getActivity(), listItems);
