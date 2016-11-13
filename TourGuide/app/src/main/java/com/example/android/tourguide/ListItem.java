@@ -7,19 +7,19 @@ package com.example.android.tourguide;
 public class ListItem {
 
     private String mName;
-    private String mAddress;
+    private String mDescription;
     private int mImageResourceID;
     private String mWebsite;
 
-    public ListItem(String name, String address, int imageResourceID, String website) {
+    public ListItem(String name, String description, int imageResourceID, String website) {
         mName = name;
-        mAddress = address;
+        mDescription = description;
         mImageResourceID = imageResourceID;
         mWebsite = website;
     }
 
-    public String getmAddress() {
-        return mAddress;
+    public String getmDescription() {
+        return mDescription;
     }
 
     public String getmName() {
