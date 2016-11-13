@@ -11,7 +11,7 @@ public class ListItem {
     private int mImageResourceID;
     private String mWebsite;
 
-    public ListItem(String name, String description, int imageResourceID, String website) {
+    public ListItem(String name, String description, String website, int imageResourceID) {
         mName = name;
         mDescription = description;
         mImageResourceID = imageResourceID;
