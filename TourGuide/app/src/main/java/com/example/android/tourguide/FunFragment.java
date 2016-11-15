@@ -29,21 +29,21 @@ public class FunFragment extends Fragment {
 //        Create ArrayList of "Fun" items
         final ArrayList<ListItem> listItems = new ArrayList<>();
         listItems.add(new ListItem(getString(R.string.fun_name_dia), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.dia));
         listItems.add(new ListItem(getString(R.string.fun_name_fowling), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.fowling));
         listItems.add(new ListItem(getString(R.string.fun_name_greektown), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.greektown));
         listItems.add(new ListItem(getString(R.string.fun_name_historical), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.historical));
         listItems.add(new ListItem(getString(R.string.fun_name_mgm), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.mgm));
         listItems.add(new ListItem(getString(R.string.fun_name_monroe), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.monroe));
         listItems.add(new ListItem(getString(R.string.fun_name_motorcity), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.motorcity));
         listItems.add(new ListItem(getString(R.string.fun_name_princess), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.princess));
 
 //        Hook up adapter
         ListItemAdapter adapter = new ListItemAdapter(getActivity(), listItems);
