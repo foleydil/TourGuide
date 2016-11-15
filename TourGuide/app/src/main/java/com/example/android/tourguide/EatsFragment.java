@@ -31,15 +31,15 @@ public class EatsFragment extends Fragment {
         listItems.add(new ListItem(getString(R.string.eats_name_greendot), "Description",
                 "Website", R.drawable.greendot));
         listItems.add(new ListItem(getString(R.string.eats_name_nathans), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.nathans));
         listItems.add(new ListItem(getString(R.string.eats_name_punchbowl), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.punchbowl));
         listItems.add(new ListItem(getString(R.string.eats_name_republic), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.republic));
         listItems.add(new ListItem(getString(R.string.eats_name_townhouse), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.townhouse));
         listItems.add(new ListItem(getString(R.string.eats_name_wright), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.wright));
 
 //        Hook up adapter
         ListItemAdapter adapter = new ListItemAdapter(getActivity(), listItems);
