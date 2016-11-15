@@ -13,10 +13,12 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
 
         <TextView
             android:id="@+id/item_name"
+            style="@style/ItemTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Item Name"
