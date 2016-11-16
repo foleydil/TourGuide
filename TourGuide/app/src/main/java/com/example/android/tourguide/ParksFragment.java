@@ -29,19 +29,19 @@ public class ParksFragment extends Fragment {
 //        Create ArrayList of "Parks" items
         final ArrayList<ListItem> listItems = new ArrayList<>();
         listItems.add(new ListItem(getString(R.string.parks_name_belle), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.belle));
         listItems.add(new ListItem(getString(R.string.parks_name_campus), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.campus));
         listItems.add(new ListItem(getString(R.string.parks_name_grand), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.grand));
         listItems.add(new ListItem(getString(R.string.parks_name_hart), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.hart));
         listItems.add(new ListItem(getString(R.string.parks_name_milliken), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.milliken));
         listItems.add(new ListItem(getString(R.string.parks_name_riverwalk), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.riverwalk));
         listItems.add(new ListItem(getString(R.string.parks_name_spirit), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.spirit));
 
 //        Hook up adapter
         ListItemAdapter adapter = new ListItemAdapter(getActivity(), listItems);

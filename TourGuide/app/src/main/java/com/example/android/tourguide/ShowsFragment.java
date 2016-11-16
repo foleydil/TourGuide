@@ -28,23 +28,23 @@ public class ShowsFragment extends Fragment {
 //        Create ArrayList of "Shows" items
         final ArrayList<ListItem> listItems = new ArrayList<>();
         listItems.add(new ListItem(getString(R.string.shows_name_comerica), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.comerica));
         listItems.add(new ListItem(getString(R.string.shows_name_fillmore), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.fillmore));
         listItems.add(new ListItem(getString(R.string.shows_name_fisher), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.fisher));
         listItems.add(new ListItem(getString(R.string.shows_name_ford), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.ford));
         listItems.add(new ListItem(getString(R.string.shows_name_fox), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.fox));
         listItems.add(new ListItem(getString(R.string.shows_name_little), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.little));
         listItems.add(new ListItem(getString(R.string.shows_name_masonic), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.masonic));
         listItems.add(new ListItem(getString(R.string.shows_name_opera), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.opera));
         listItems.add(new ListItem(getString(R.string.shows_name_standrews), "Description",
-                "Website", R.drawable.greendot));
+                "Website", R.drawable.standrews));
 
 //        Hook up adapter
         ListItemAdapter adapter = new ListItemAdapter(getActivity(), listItems);
