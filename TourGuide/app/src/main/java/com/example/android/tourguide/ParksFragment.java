@@ -29,19 +29,19 @@ public class ParksFragment extends Fragment {
 //        Create ArrayList of "Parks" items
         final ArrayList<ListItem> listItems = new ArrayList<>();
         listItems.add(new ListItem(getString(R.string.parks_name_belle), "Description",
-                "Website", R.drawable.belle));
+                getString(R.string.parks_site_belle), R.drawable.belle));
         listItems.add(new ListItem(getString(R.string.parks_name_campus), "Description",
-                "Website", R.drawable.campus));
+                getString(R.string.parks_site_campus), R.drawable.campus));
         listItems.add(new ListItem(getString(R.string.parks_name_grand), "Description",
-                "Website", R.drawable.grand));
+                getString(R.string.parks_site_grand), R.drawable.grand));
         listItems.add(new ListItem(getString(R.string.parks_name_hart), "Description",
-                "Website", R.drawable.hart));
+                getString(R.string.parks_site_hart), R.drawable.hart));
         listItems.add(new ListItem(getString(R.string.parks_name_milliken), "Description",
-                "Website", R.drawable.milliken));
+                getString(R.string.parks_site_milliken), R.drawable.milliken));
         listItems.add(new ListItem(getString(R.string.parks_name_riverwalk), "Description",
-                "Website", R.drawable.riverwalk));
+                getString(R.string.parks_site_riverwalk), R.drawable.riverwalk));
         listItems.add(new ListItem(getString(R.string.parks_name_spirit), "Description",
-                "Website", R.drawable.spirit));
+                getString(R.string.parks_site_spirit), R.drawable.spirit));
 
 //        Hook up adapter
         ListItemAdapter adapter = new ListItemAdapter(getActivity(), listItems);

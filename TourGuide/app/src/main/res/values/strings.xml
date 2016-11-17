@@ -15,7 +15,7 @@
     <string name="eats_name_wright">Wright &amp; Co.</string>
 
     <string name="parks_name_campus">Campus Martius</string>
-    <string name="parks_name_grand">Grand Circuis Park</string>
+    <string name="parks_name_grand">Grand Circus Park</string>
     <string name="parks_name_riverwalk">Detroit Riverwalk</string>
     <string name="parks_name_belle">Belle Isle Park</string>
     <string name="parks_name_hart">Hart Plaza</string>
@@ -44,5 +44,44 @@
     <!--Item description strings-->
 
     <!--Item website strings-->
+    <string name="eats_site_punchbowl">www.PunchBowlSocial.com</string>
+    <string name="eats_site_townhouse">www.EatAtTownhouse.com</string>
+    <string name="eats_site_greendot">www.GreenDotStables.com</string>
+    <string name="eats_site_nathans">www.NathansDeliDetroit.com</string>
+    <string name="eats_site_republic">www.RepublicTavernDetroit.com</string>
+    <string name="eats_site_wright">www.WrightDetroit.com</string>
+
+    <string name="parks_site_campus">www.CampusMartiusPark.org</string>
+    <string name="parks_site_grand">www.yelp.com/biz/grand-circus-park-detroit</string>
+    <string name="parks_site_belle">www.BelleIsleConservancy.org</string>
+    <string name="parks_site_riverwalk">www.DetroitRiverfront.org/riverfront
+</string>
+    <string name="parks_site_hart">www.DetroitRiverfront.org/riverfront/east-riverfront/hart-plaza
+</string>
+    <string name="parks_site_milliken">www.DetroitRiverfront.org/riverfront/east-riverfront/milliken-state-park-and-harbor
+</string>
+    <string name="parks_site_spirit">www.HistoricDetroit.org/building/spirit-of-detroit/
+</string>
+
+    <string name="fun_site_mgm">www.MGMGrandDetroit.com</string>
+    <string name="fun_site_greektown">www.GreektownCasino.com</string>
+    <string name="fun_site_motorcity">www.MotorCityCasino.com</string>
+    <string name="fun_site_monroe">www.GreektownDetroit.com</string>
+    <string name="fun_site_fowling">www.FowlingWarehouse.com</string>
+    <string name="fun_site_princess">www.DetroitPrincess.com</string>
+    <string name="fun_site_dia">www.DIA.org</string>
+    <string name="fun_site_historical">www.DetroitHistorical.com</string>
+
+    <string name="shows_site_comerica">www.OlympiaEntertainment.com/comerica-park
+</string>
+    <string name="shows_site_ford">www.FordField.com</string>
+    <string name="shows_site_little">www.DistrictDetroit.com</string>
+    <string name="shows_site_fillmore">www.TheFillmoreDetroit.com</string>
+    <string name="shows_site_fox">www.OlympiaEntertainment.com/Fox-Theatre</string>
+    <string name="shows_site_fisher">www.BroadwayInDetroit.com</string>
+    <string name="shows_site_opera">www.MichiganOpera.org/Detroit-Opera-House</string>
+    <string name="shows_site_standrews">www.StAndrewsDetroit.com</string>
+    <string name="shows_site_masonic">www.TheMasonic.com</string>
+
 
 </resources>

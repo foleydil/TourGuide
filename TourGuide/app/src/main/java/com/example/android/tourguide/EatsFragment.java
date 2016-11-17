@@ -29,17 +29,17 @@ public class EatsFragment extends Fragment {
 //        Create ArrayList of "Eats" items
         final ArrayList<ListItem> listItems = new ArrayList<>();
         listItems.add(new ListItem(getString(R.string.eats_name_greendot), "Description",
-                "Website", R.drawable.greendot));
+                getString(R.string.eats_site_greendot), R.drawable.greendot));
         listItems.add(new ListItem(getString(R.string.eats_name_nathans), "Description",
-                "Website", R.drawable.nathans));
+                getString(R.string.eats_site_nathans), R.drawable.nathans));
         listItems.add(new ListItem(getString(R.string.eats_name_punchbowl), "Description",
-                "Website", R.drawable.punchbowl));
+                getString(R.string.eats_site_punchbowl), R.drawable.punchbowl));
         listItems.add(new ListItem(getString(R.string.eats_name_republic), "Description",
-                "Website", R.drawable.republic));
+                getString(R.string.eats_site_republic), R.drawable.republic));
         listItems.add(new ListItem(getString(R.string.eats_name_townhouse), "Description",
-                "Website", R.drawable.townhouse));
+                getString(R.string.eats_site_townhouse), R.drawable.townhouse));
         listItems.add(new ListItem(getString(R.string.eats_name_wright), "Description",
-                "Website", R.drawable.wright));
+                getString(R.string.eats_site_wright), R.drawable.wright));
 
 //        Hook up adapter
         ListItemAdapter adapter = new ListItemAdapter(getActivity(), listItems);
