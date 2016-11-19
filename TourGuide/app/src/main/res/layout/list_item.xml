@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/colorPrimaryLight">
+    android:background="@color/colorPrimaryLight"
+    android:orientation="horizontal">
 
     <ImageView
         android:id="@+id/image"
@@ -22,25 +21,22 @@
             style="@style/ItemTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Item Name"
             android:layout_weight="1"/>
 
         <TextView
-            style="@style/ItemDescription"
             android:id="@+id/item_desc"
+            style="@style/ItemDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Short description of item"
-            android:layout_weight="1"/>
+            android:layout_weight="1" />
 
         <TextView
             android:id="@+id/item_site"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="www.website.com"
-            android:textColorLink="@color/colorPrimaryDark"
+            android:layout_weight="1"
             android:autoLink="web"
-            android:layout_weight="1"/>
+            android:textColorLink="@color/colorPrimaryDark" />
 
     </LinearLayout>
 
