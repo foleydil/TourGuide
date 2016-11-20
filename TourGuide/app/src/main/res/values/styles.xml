@@ -11,13 +11,20 @@
     <style name="ItemTitle">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">@color/colorPrimaryText</item>
-        <item name="android:paddingTop">8dp</item>
         <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">top</item>
     </style>
 
     <style name="ItemDescription">
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="ItemSite">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColorLink">@color/colorPrimary</item>
+        <item name="android:autoLink">web</item>
+        <item name="android:gravity">bottom</item>
     </style>
 
 </resources>

@@ -28,20 +28,27 @@ public class ParksFragment extends Fragment {
 
 //        Create ArrayList of "Parks" items
         final ArrayList<ListItem> listItems = new ArrayList<>();
-        listItems.add(new ListItem(getString(R.string.parks_name_belle), "Description",
-                getString(R.string.parks_site_belle), R.drawable.belle));
-        listItems.add(new ListItem(getString(R.string.parks_name_campus), "Description",
-                getString(R.string.parks_site_campus), R.drawable.campus));
-        listItems.add(new ListItem(getString(R.string.parks_name_grand), "Description",
-                getString(R.string.parks_site_grand), R.drawable.grand));
-        listItems.add(new ListItem(getString(R.string.parks_name_hart), "Description",
-                getString(R.string.parks_site_hart), R.drawable.hart));
-        listItems.add(new ListItem(getString(R.string.parks_name_milliken), "Description",
-                getString(R.string.parks_site_milliken), R.drawable.milliken));
-        listItems.add(new ListItem(getString(R.string.parks_name_riverwalk), "Description",
-                getString(R.string.parks_site_riverwalk), R.drawable.riverwalk));
-        listItems.add(new ListItem(getString(R.string.parks_name_spirit), "Description",
-                getString(R.string.parks_site_spirit), R.drawable.spirit));
+        listItems.add(new ListItem(getString(R.string.parks_name_belle),
+                getString(R.string.parks_desc_belle), getString(R.string.parks_site_belle),
+                R.drawable.belle));
+        listItems.add(new ListItem(getString(R.string.parks_name_campus),
+                getString(R.string.parks_desc_campus), getString(R.string.parks_site_campus),
+                R.drawable.campus));
+        listItems.add(new ListItem(getString(R.string.parks_name_grand),
+                getString(R.string.parks_desc_grand), getString(R.string.parks_site_grand),
+                R.drawable.grand));
+        listItems.add(new ListItem(getString(R.string.parks_name_hart),
+                getString(R.string.parks_desc_hart), getString(R.string.parks_site_hart),
+                R.drawable.hart));
+        listItems.add(new ListItem(getString(R.string.parks_name_milliken),
+                getString(R.string.parks_desc_milliken), getString(R.string.parks_site_milliken),
+                R.drawable.milliken));
+        listItems.add(new ListItem(getString(R.string.parks_name_riverwalk),
+                getString(R.string.parks_desc_riverwalk), getString(R.string.parks_site_riverwalk),
+                R.drawable.riverwalk));
+        listItems.add(new ListItem(getString(R.string.parks_name_spirit),
+                getString(R.string.parks_desc_spirit), getString(R.string.parks_site_spirit),
+                R.drawable.spirit));
 
 //        Hook up adapter
         ListItemAdapter adapter = new ListItemAdapter(getActivity(), listItems);

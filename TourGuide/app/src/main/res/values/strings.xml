@@ -1,5 +1,5 @@
 <resources>
-<!--Title Strings-->
+    <!--Title Strings-->
     <string name="app_name">Tour Guide</string>
     <string name="eats_title">Eats</string>
     <string name="fun_title">Fun</string>
@@ -42,6 +42,61 @@
     <string name="shows_name_masonic">The Masonic Temple</string>
 
     <!--Item description strings-->
+    <string name="eats_desc_punchbowl">Fun-oriented gathering place featuring a full menu,
+        several bars, games, &amp; bowling lanes.</string>
+    <string name="eats_desc_townhouse">Modern American cuisine featuring a terrace with retractable
+        roof for year-round happy hours.</string>
+    <string name="eats_desc_greendot">Detroit staple featuring delicious and unique sliders,
+        truffle fries, and beers on tap.</string>
+    <string name="eats_desc_nathans">Tiny Detroit deli with weekly specials. Best reuben in the
+    city!</string>
+    <string name="eats_desc_republic">"Locally sourced, seasonally inspired, crafted with love."
+        Emphasis on nose-to-tail eating.</string>
+    <string name="eats_desc_wright">Unique &amp; delicious American small plates combined with
+        perfectly crafted cocktails.</string>
+
+    <string name="parks_desc_campus">Park at the center of downtown, featuring an ice skating rink
+        in the winter, and beach bar in summertime.</string>
+    <string name="parks_desc_grand">Trees, tables, &amp; fountains near Comerica Park, the Opera
+        House, and the Fox theatre.</string>
+    <string name="parks_desc_riverwalk">3.5 miles along the detroit river connecting parks, plazas,
+        and pavilions.</string>
+    <string name="parks_desc_belle">982-acre island on the Detroit River, home to open park space,
+        an aquarium, nature zoo, conservatory, and driving range.</string>
+    <string name="parks_desc_hart">Riverfront park that regularly hosts summer concerts &amp;
+        festivals.</string>
+    <string name="parks_desc_milliken">31-acre park featuring a 52-slip harbor and replica of the
+        Tawas Point lighthouse.</string>
+    <string name="parks_desc_spirit">Iconic bronze sculpture constructed in 1955.</string>
+
+    <string name="fun_desc_mgm">Casino &amp; hotel easily accessible from major freeways.</string>
+    <string name="fun_desc_greektown">Casino &amp; hotel in the heart of downtown Detroit.</string>
+    <string name="fun_desc_motorcity">Casino &amp; hotel just northwest of central downtown.
+        </string>
+    <string name="fun_desc_monroe">Bustling restaurant &amp; entertainment district in the heart
+        of downtown Detroit.</string>
+    <string name="fun_desc_fowling">Unique destination for competing with friends by throwing
+        footballs at bowling pins!</string>
+    <string name="fun_desc_princess">Historic riverboat offering lunch cruises and special events.
+        </string>
+    <string name="fun_desc_dia">Educational museum that allows patrons to walk through art history,
+        from Van Gogh to modern art.</string>
+    <string name="fun_desc_historical">Featuring the \"Streets of Old Detroit\" exhibit, walkable
+        replica of a Detroit street in the 1840s.</string>
+
+    <string name="shows_desc_comerica">Home of the Detroit Tigers &amp; popular outdoor concert
+        venue.</string>
+    <string name="shows_desc_ford">Home of the Detroit Lions.</string>
+    <string name="shows_desc_little">Future home of the Detroit Red Wings, featuring retailers &amp;
+        restaurants.</string>
+    <string name="shows_desc_fillmore">Popular music venue in downtown Detroit.</string>
+    <string name="shows_desc_fox">Historic and elegant theatre for plays &amp; special events.
+        </string>
+    <string name="shows_desc_fisher">Storied destination for Broadway theatre.</string>
+    <string name="shows_desc_opera">Classical music venue near Grand Circuis Park.</string>
+    <string name="shows_desc_standrews">Popular destination for Rock, Pop, &amp; other national and
+        local musical acts.</string>
+    <string name="shows_desc_masonic">Historic music and theatre destination.</string>
 
     <!--Item website strings-->
     <string name="eats_site_punchbowl">www.PunchBowlSocial.com</string>
